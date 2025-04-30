@@ -1,0 +1,59 @@
+body {
+    font-family: Arial, sans-serif;
+    background-color: #e6ccff; /* Color lila */
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+marquee {
+    background-color: #b266ff;
+    color: white;
+    padding: 10px;
+    font-weight: bold;
+    font-size: 1.2em;
+}
+
+nav {
+    background-color: #9933cc;
+    padding: 10px 0;
+}
+
+nav ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 15px;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+    font-weight: bold;
+}
+
+header h1 {
+    color: #4b0082;
+    margin-top: 20px;
+}
+
+.contenido {
+    padding: 20px;
+}
+
+button {
+    background-color: #b266ff;
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    cursor: pointer;
+    font-size: 1em;
+}
+
+button:hover {
+    background-color: #9933cc;
+}
