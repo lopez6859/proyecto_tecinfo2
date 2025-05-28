@@ -1,0 +1,75 @@
+/* Colores pasteles */
+:root {
+  --pastel-rosa: #f9c5d1;
+  --pastel-verde: #d0f0c0;
+  --pastel-azul: #cce5ff;
+  --pastel-amarillo: #fff4b2;
+  --pastel-lila: #e6ccff;
+}
+
+body {
+  font-family: 'Segoe UI', sans-serif;
+  background-color: var(--pastel-verde);
+  color: #333;
+  margin: 0;
+  padding: 0;
+  transition: background-color 0.5s ease;
+}
+
+header {
+  background-color: var(--pastel-lila);
+  text-align: center;
+  padding: 2em;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.1);
+}
+
+h1 {
+  margin: 0;
+}
+
+main {
+  padding: 2em;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0;
+}
+
+li {
+  margin: 0.5em 0;
+}
+
+button {
+  background-color: var(--pastel-rosa);
+  border: none;
+  padding: 1em;
+  margin: 1em;
+  cursor: pointer;
+  border-radius: 10px;
+  font-size: 1em;
+  transition: transform 0.3s, background-color 0.3s;
+}
+
+button:hover {
+  background-color: var(--pastel-amarillo);
+  transform: scale(1.05);
+}
+
+#ideaCreativa {
+  margin-top: 2em;
+  background-color: var(--pastel-azul);
+  padding: 1em;
+  border-radius: 10px;
+  box-shadow: 0 2px 5px rgba(0,0,0,0.1);
+}
+
+.oculto {
+  display: none;
+}
+
+footer {
+  text-align: center;
+  padding: 1em;
+  background-color: var(--pastel-lila);
+}
